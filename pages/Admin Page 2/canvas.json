@@ -27,6 +27,7 @@
           "children": []
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Admin Page 2",
         "deleted": false,
