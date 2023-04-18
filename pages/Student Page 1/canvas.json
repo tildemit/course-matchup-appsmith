@@ -857,7 +857,7 @@
                       "overflow": "NONE",
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 1.5,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -874,7 +874,7 @@
                       "text": "Add Interest",
                       "key": "awe64x5dpz",
                       "isDeprecated": false,
-                      "rightColumn": 25.5,
+                      "rightColumn": 26,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "yfoja9xtfw",
