@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Form3.data}}",
+      "body": "{{DeleteForm.data}}",
       "bodyFormData": [],
       "httpMethod": "DELETE",
       "selfReferencingDataPaths": [],
@@ -52,7 +52,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Form3.data"
+      "DeleteForm.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
