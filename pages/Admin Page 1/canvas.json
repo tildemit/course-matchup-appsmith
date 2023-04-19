@@ -562,7 +562,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Department",
+                      "label": "Name of college",
                       "version": 2,
                       "parentId": "xyb8875i2f",
                       "labelAlignment": "left",
