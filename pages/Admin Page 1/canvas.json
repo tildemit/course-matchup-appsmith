@@ -1208,7 +1208,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681858332106,
+              "columnUpdatedAt": 1681920796725,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -1216,9 +1216,9 @@
               "defaultPageSize": 0,
               "columnOrder": [
                 "firstN",
-                "gpa",
                 "lastN",
-                "userID"
+                "userID",
+                "gpa"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -1253,7 +1253,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "firstN",
+                  "label": "First Name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"firstN\"]))}}",
@@ -1305,7 +1305,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "lastN",
+                  "label": "Last Name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastN\"]))}}",
@@ -1331,7 +1331,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "userID",
+                  "label": "ID",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userID\"]))}}",
@@ -1469,7 +1469,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "firstN",
+                  "label": "First Name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"firstN\"]))}}",
@@ -1495,7 +1495,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "lastN",
+                  "label": "Last Name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastN\"]))}}",
@@ -1521,7 +1521,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "userID",
+                  "label": "ID",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"userID\"]))}}",
@@ -1549,40 +1549,7 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Admin Page 1_getStudentsAboveGPA",
-              "name": "getStudentsAboveGPA",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Form1.data"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin Page 1_getStudentsBelowGPA",
-              "name": "getStudentsBelowGPA",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Form3.data"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Admin Page 1_studentDepartment",
-              "name": "studentDepartment",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Form2.data"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Admin Page 1",

@@ -137,7 +137,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "academic",
+                  "label": "Academic",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Get_Interests.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"academic\"]))}}",
@@ -163,7 +163,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "personal",
+                  "label": "Personal",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Get_Interests.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"personal\"]))}}",
@@ -189,7 +189,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "professional",
+                  "label": "Professional",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Get_Interests.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"professional\"]))}}",
@@ -200,7 +200,7 @@
               "key": "q50a04bcbt",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 59,
+              "rightColumn": 64,
               "textSize": "0.875rem",
               "widgetId": "2o53zmrbyt",
               "minWidth": 450,
@@ -1606,20 +1606,7 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Student Page 1_getInterests",
-              "name": "getInterests",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "getInterestsForm.data"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Student Page 1",

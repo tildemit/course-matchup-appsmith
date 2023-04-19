@@ -133,7 +133,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "courseID",
+                  "label": "Course ID",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"courseID\"]))}}",
@@ -159,7 +159,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "name",
+                  "label": "Name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
@@ -647,7 +647,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "enrollmentSlots",
+                  "label": "Enrollment Slots",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"enrollmentSlots\"]))}}",
@@ -676,7 +676,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "secNumber",
+                  "label": "Section Number",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"secNumber\"]))}}",
@@ -705,7 +705,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "semester",
+                  "label": "Semester",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"semester\"]))}}",
@@ -1684,38 +1684,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Student Page 2_getCoursesDep",
-              "name": "getCoursesDep",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "getCoursesDepForm.data"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Student Page 2_getProfessors",
-              "name": "getProfessors",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "getProfessorsForm.data"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Student Page 2_getSections",
-              "name": "getSections",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "getSectionsForm.data"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]
